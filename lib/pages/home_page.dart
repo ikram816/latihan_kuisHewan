@@ -33,7 +33,7 @@ class HomePage extends StatelessWidget {
           maxCrossAxisExtent: 220,
           crossAxisSpacing: 12,
           mainAxisSpacing: 12,
-          mainAxisExtent: 240,
+          mainAxisExtent: 258,
         ),
         itemCount: dummyAnimals.length,
         itemBuilder: (context, index) {

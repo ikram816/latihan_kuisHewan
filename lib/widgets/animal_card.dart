@@ -26,7 +26,7 @@ class AnimalCard extends StatelessWidget {
           children: [
             // Foto dengan tinggi tetap
             SizedBox(
-              height: 110,
+              height: 100,
               width: double.infinity,
               child: Image.network(
                 animal.image,
@@ -44,7 +44,7 @@ class AnimalCard extends StatelessWidget {
               ),
             ),
             Padding(
-              padding: const EdgeInsets.all(10),
+              padding: const EdgeInsets.all(8),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
